@@ -1,0 +1,9 @@
+spring:
+  application:
+  security:
+      jwt:
+        secret-key: 6IZg7jgQiI4YahVv8rvEKHaKnaSIOTrALBhc2DenF0L
+        expiration: 15
+        refresh-token:
+          expiration: 360
+          secret-key: 6IZg7jgQiI4YahVv8rvEKHaKnaSIOTrALBhc2DenF0X
